@@ -1,0 +1,186 @@
+body{
+font-family: 'Montserrat-Bold', sans-serif;
+text-align: center;
+}
+
+.colored-section{
+    background-color: #ff4c68;
+      color: #fff;
+}
+
+.white-section{
+    background-color: #fff;
+}
+
+.navbar-toggler-custom{
+  text-align: left;
+}
+
+
+ /* -------------------title---------- */
+#title{
+}
+
+h1{
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: bold;
+  text-align: left;
+}
+
+.container-fluid{
+  padding: 2% 15% 4% 15%;
+}
+
+  /*---title navbar--- */
+.navbar{
+   padding: 0 0 4.5rem 0;
+}
+
+.navbar-brand{
+  font-family: 'Ubuntu';
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item{
+  padding: 0 18px;
+}
+
+.nav-link{
+  font-family: 'Ubuntu';
+  font-size: 1.2rem;
+}
+
+   /* ---title image--- */
+.phone-image{
+  width: 60%;
+   transform: rotate(25deg);
+   position: absolute;
+   right: 30%;
+}
+
+@media (max-width: 1120px) {
+#title{
+  text-align: center;
+}
+.phone-image{
+  position: static;
+  transform: rotate(0);
+}
+}
+
+/* ---title button--- */
+.Download-button{
+margin: 5% 3% 5% 0;
+}
+
+     /*--------------------------- Features----------------- */
+#features{
+
+  position: relative;
+  z-index: 1;
+}
+
+.container-fluid-features{
+    padding: 10% 15%;
+}
+
+.col-lg-4{
+  padding: 4%;
+}
+
+.features-h1{       /* bcz of h1 icon are big in size or you can directly access by picking size from fontawesome */
+  color: #ef8172;
+  text-align: center;
+}
+
+.features-h1:hover{
+  color: #ff4c68;
+}
+
+.features-h3{
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.features-paragraph{
+  color: #8f8f8f;
+}
+
+  /*------------------------ testimonial--------------*/
+#testimonials{
+  background-color: #ef8172;
+}
+
+h2{
+  font-weight: bold;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.testimonial-image{
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px 20px 0px 20px;
+}
+
+/* ---------------------press------ */
+#press{
+  background-color: #ef8172;
+  padding-top: 0;
+  padding-bottom: 3%;
+}
+
+.carousel-item{
+  padding: 10% 20% 8% 20%;
+}
+
+.press-logos{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+    /* ------------------pricing--- */
+#pricing{
+  padding: 80px;
+}
+
+.pricing-button{
+ width: 95%;
+}
+
+.pricing-h3{
+   font-size: 1.8rem;
+}
+
+/* --------------------call to action--- */
+#cta{
+}
+
+.container-fluid-cta{
+  padding: 10% 20%;
+}
+
+h3{
+ font-size: 4rem;
+ font-weight: bold;
+}
+
+/* ------------------footer----- */
+#footer{
+}
+
+.container-fluid-footer{
+    padding: 6% 20%;
+}
+
+p{
+  color: grey;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.footer-icon{
+  margin: 1.4%;
+}
